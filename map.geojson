@@ -1,0 +1,14 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "//COMMENT": "I used a location near Arena's in Milford for testing, will figure out better way for defaults later",
+        "coordinates": [38.91610201096429, -75.42253603254926],
+        "type": "Point"
+      }
+    }
+  ]
+}
