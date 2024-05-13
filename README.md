@@ -25,7 +25,7 @@
 <h3 align="center">Hotblock</h3>
 
   <p align="center">
-    A community-like police map
+    A community-driven police map
     <br />
     <a href="https://github.com/brxdyh/hotblock/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
@@ -73,7 +73,7 @@ A project meant to help drivers be aware of common locations that police sit at 
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Eventually I will use this space to show useful examples of how the project can be used. Additional resources, screenshots, code examples, and demos may also be added in this space.
 
 Will add more to this once its actually functional lmao
 
