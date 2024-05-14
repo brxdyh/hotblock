@@ -59,16 +59,12 @@
 
 A project meant to help drivers be aware of common locations that police sit at to get tickets. Will allow for users to search for community submitted location markers.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ### Built With
 
 - [![Javascript](https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=fff)](https://javascript.com)
 - [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=fff)](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
 - [![Static Badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=fff)](https://en.wikipedia.org/wiki/CSS)
 - [![JQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)](https://jquery.com/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 
@@ -77,8 +73,6 @@ A project meant to help drivers be aware of common locations that police sit at 
 Eventually I will use this space to show useful examples of how the project can be used. Additional resources, screenshots, code examples, and demos may also be added in this space.
 
 Will add more to this once its actually functional lmao
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
 
@@ -92,8 +86,6 @@ Will add more to this once its actually functional lmao
   - [ ] Customize icons?
 
 See the [open issues](https://github.com/brxdyh/hotblock/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
@@ -110,15 +102,11 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- LICENSE -->
 
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
 
@@ -142,7 +130,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [stars-url]: https://github.com/brxdyh/hotblock/stargazers
 [issues-shield]: https://img.shields.io/github/issues/brxdyh/hotblock.svg?style=for-the-badge
 [issues-url]: https://github.com/brxdyh/hotblock/issues
-[license-shield]: https://img.shields.io/github/license/brxdyh/hotblock.svg?style=for-the-badge
 [license-url]: https://github.com/brxdyh/hotblock/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
