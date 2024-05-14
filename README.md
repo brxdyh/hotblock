@@ -86,8 +86,9 @@ Will add more to this once its actually functional lmao
 - [x] Get marker points for cop locations working
 - [ ] Come up with better design for website
 - [ ] Expand on cop markers
-  - [ ] Allow points to be added
+  - [ ] Allow points to be added by users
   - [ ] Add search boxes to bring the user to a specified location
+  - [ ] Customize icons?
 
 See the [open issues](https://github.com/brxdyh/hotblock/issues) for a full list of proposed features (and known issues).
 
