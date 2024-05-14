@@ -3,7 +3,11 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "name": "Police Spot 1",
+        "amenity": "Police",
+        "lastSeen": "2024-05-12T16:20:00Z"
+      },
       "geometry": {
         "//COMMENT": "I used a location near Arena's in Milford for testing, will figure out better way for defaults later",
         "coordinates": [38.91610201096429, -75.42253603254926],

@@ -83,7 +83,7 @@ Will add more to this once its actually functional lmao
 
 ## Roadmap
 
-- [ ] Get marker points for cop locations working
+- [x] Get marker points for cop locations working
 - [ ] Come up with better design for website
 - [ ] Expand on cop markers
   - [ ] Allow points to be added
