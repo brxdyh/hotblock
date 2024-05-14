@@ -66,6 +66,7 @@ A project meant to help drivers be aware of common locations that police sit at 
 - [![Javascript](https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=fff)](https://javascript.com)
 - [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=fff)](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
 - [![Static Badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=fff)](https://en.wikipedia.org/wiki/CSS)
+- [![JQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)](https://jquery.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,9 +124,10 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Acknowledgments
 
-- [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
-- [Simple Icons](https://simpleicons.org/)
-- [Shields.io](https://shields.io/badges)
+- [Best-README-Template](https://github.com/othneildrew/Best-README-Template) - for README template (duh)
+- [Simple Icons](https://simpleicons.org/) - for icons used in badges
+- [Shields.io](https://shields.io/badges) - for creating 'built with' badges
+- [Leaflet](https://leafletjs.com/) - for the interactive map library
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
