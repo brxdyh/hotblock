@@ -1,14 +1,16 @@
-const lat = 38.91473296688135;
+const lat = 38.91473296688135; // Uses Arena's in Milford as a placeholder
 const lon = -75.42635549832752;
 const map = L.map("map", {
   renderer: L.canvas({ tolerance: 10 }),
-}).setView([lat, lon], 17); // Sets initial coordinates (Arena's) and zoom level
+}).setView([lat, lon], 17); // Sets initial coordinates and zoom level
 
+// Sets maximum usable boundaries of the map
 map.setMaxBounds([
   [73.5107240340998, -175.02086457138665],
   [-48.995311187950925, 175.02086457138665],
 ]);
 
+// Initializes the map UI (zoom controls, lower right info)
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 19,
   attribution:

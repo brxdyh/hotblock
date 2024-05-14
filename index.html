@@ -3,22 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Police Map</title>
+    <title>Hotblock</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="leaflet/leaflet.css" />
-    <script src="leaflet/leaflet.js"></script>
-    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   </head>
   <body>
     <div id="map"></div>
     <div id="sidebar">
       <img src="images/web-logo.png" alt="Heatblock logo" style="width: 100%" />
       <h1>Hotblock</h1>
+      <form id="location-form">
+        <input type="text" id="location-name" placeholder="Cop location" />
+        <input
+          type="text"
+          id="location-cords"
+          placeholder="Coordiantes (lat, lon)"
+        />
+        <button type="submit">Submit</button>
+      </form>
       <div class="brad-info">
         <p>made by brady hatch , 2024</p>
       </div>
     </div>
-    <script src="leaflet.min.js"></script>
     <script src="main.js"></script>
   </body>
 </html>

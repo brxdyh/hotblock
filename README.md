@@ -82,6 +82,9 @@ Will add more to this once its actually functional lmao
 - [ ] Come up with better design for website
 - [ ] Expand on cop markers
   - [ ] Allow points to be added by users
+    - [x] Add form for location
+    - [ ] Tie in with script
+    - [ ] Create python script to store given location
   - [ ] Add search boxes to bring the user to a specified location
   - [ ] Customize icons?
 
