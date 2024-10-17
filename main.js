@@ -44,4 +44,47 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     },
   });
+
+  // Handle form submissions to add new locations to map
+  $("#location-form").submit(function (e) {
+    e.preventDefault();
+
+    // Grabs form values
+    var locationName = $("#location-name").val();
+    var cords = $("#location-cords").val().split(",");
+
+    // Checks and ensures both location and names are provided
+    if (locationName && cords.length === 2) {
+      var lat = parseFloat(cords[0].trim());
+      var lon = parseFloat(cords[1].trim());
+
+      if (!isNaN(lat) && !isNaN(lon)) {
+        // Adds new marker to map
+        var newMarker = L.marker([lat, lon]).addTo(map);
+        newMarker.bindPopup(locationName).openPopup();
+
+        // Optionally: Send the new data to the server using AJAX
+        $.ajax({
+          type: "POST",
+          url: "/add_marker",
+          contentType: "application/json",
+          data: JSON.stringify({
+            name: locationName,
+            coordinates: [lat, lon],
+            lastSeen: new Date().toISOString(),
+          }),
+          success: function (response) {
+            console.log("Marker added successfully:", response);
+          },
+          error: function (err) {
+            console.error("Error adding marker:", err);
+          },
+        });
+      } else {
+        alert("Invalid coordinates. Please use format: lat, lon.");
+      }
+    } else {
+      alert("Please provide both a location name and coordinates.");
+    }
+  });
 });
